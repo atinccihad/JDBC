@@ -9,7 +9,7 @@ public class Main {
         DBWork db = new DBWork();
 
         // Connection methodunu databaseden cagirdik.
-        Connection con = db.connect_to_db("techproed", "postgres", "atinccihadGmail");
+        Connection con = db.connect_to_db("techproed", "postgres", "password");
 
         // Yeni table olusturma methodunu cagir.
         db.createTable(con,"employees");
