@@ -11,7 +11,7 @@ public class Query05 {
 
         Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/techproed",
                 "postgres",
-                "atinccihadGmail");
+                "password");
 
         Statement st = con.createStatement();
 
