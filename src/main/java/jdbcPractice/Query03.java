@@ -9,7 +9,7 @@ public class Query03 {
 
         Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres",
                 "postgres",
-                "12345");
+                "password");
         //Statement st = con.createStatement();
 
         PreparedStatement ps = con.prepareStatement("select * from ogrenciler");
