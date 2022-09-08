@@ -11,7 +11,7 @@ public class Query04 {
 
         Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/techproed",
                 "postgres",
-                "atinccihadGmail");
+                "password");
 
         PreparedStatement ps = con.prepareStatement("insert into ogrenciler values(?,?,?,?)");
         ps.setInt(1,200);
