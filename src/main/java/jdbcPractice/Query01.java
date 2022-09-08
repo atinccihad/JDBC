@@ -13,7 +13,7 @@ public class Query01 {
         //2) Bağlantı Oluştur.
         Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/techproed",
                "postgres",
-                "atinccihadGmail");
+                "password");
 
 
         //3) Statament
