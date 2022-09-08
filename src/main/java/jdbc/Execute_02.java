@@ -6,7 +6,7 @@ public class Execute02 {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
         Class.forName("org.postgresql.Driver");
-        Connection con = DriverManager.getConnection("jdbc:postgresql://localhost5432/techproed", "postgres", "atinccihadGmail");
+        Connection con = DriverManager.getConnection("jdbc:postgresql://localhost5432/techproed", "postgres", "password");
         Statement st = con.createStatement();
 
         //1. Örnek:  region id'si 1 olan "country name" değerlerini çağırın.
