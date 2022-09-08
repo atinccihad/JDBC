@@ -12,7 +12,7 @@ public class CallableStatement01 {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
         Class.forName("org.postgresql.Driver");
-        Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/techproed", "postgres", "sifre");
+        Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/techproed", "postgres", "password");
         Statement st = con.createStatement();
 
         // 1. Örnek: İki parametre ile çalışıp bu parametreleri toplayarak return yapan bir fonksiyon oluşturun.
