@@ -1,4 +1,5 @@
- <h2>JDBC</h2> 
+<h5 align="center"><img src="https://huongdanjava.com/wp-content/uploads/2016/03/co-ban-ve-jdbc.png"/></h5>         
+<h2>JDBC</h2> 
 Java ile bir veritabanına (Mysql,Oracle, PostGreSQL gibi) erişmek ve
 işlemler yapmak için program ve veritabanı
 arasında köprü görevi görür.<br>
