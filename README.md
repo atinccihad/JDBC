@@ -1,4 +1,4 @@
-<h2>JDBC</h2> 
+ <h2>JDBC</h2> 
 Java ile bir veritabanına (Mysql,Oracle, PostGreSQL gibi) erişmek ve
 işlemler yapmak için program ve veritabanı
 arasında köprü görevi görür.<br>
